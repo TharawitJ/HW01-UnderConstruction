@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+}
+body{
+    background-image: url(../assets/HW-BGwebp);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    width: 80vw;
+    justify-content: end;
+}
+nav a {
+    margin: 5px;
+    color:aliceblue;
+    text-decoration: none;
+}
+.BG {
+    width: 100vw;
+    height: 90vh;
+}
+header {
+    font-size: 1.1rem;
+}
+.container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: auto;
+    margin-block: auto;
+}
+.logo {
+    font-size: 3rem;
+}
+.loading {
+    margin: 15px 0;
+    width: 75%;
+}
+.loadingDisplay {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+}
+.loadingProgress {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(97, 223, 181);
+}
+.loadingProgressLabel {
+    display: flex;
+    justify-content: space-between;
+}
+.notify button{
+    font-size: 1.1rem;
+    width: fit-content;
+    height: 1.5rem;
+    padding-inline: 15px;
+    background-color: rgb(97, 223, 181);
+    border: none;
+    border-radius: 5px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 80%;
+    font-size: 2rem;
+    margin-inline: auto;
+    color: aliceblue;
+    gap: 5px;
+}
+.contact1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 2px solid;
+    border-radius: 50%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer hr {
+    height: 3px;
+    margin-inline: auto;
+    width: 70%;
+    background-color: bisque;
+}
+footer div {
+    align-items: center;
+    margin-block: 15px;
+}
