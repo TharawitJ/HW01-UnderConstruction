@@ -10,7 +10,7 @@ html {
   color: aliceblue;
 }
 body{
-    background-image: url(../assets/HW-BGwebp);
+    background-image: url(./assets/HW-BG.webp);
     background-size: 100% 100%;
     width: 100vw;
     height: 100vh;
